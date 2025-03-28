@@ -60,7 +60,7 @@ Country Classification Dataset contains specific columns namely:
 ## Data Model
 The datasets were first normalized in Excel, then transformed in Power Query. Date columns were created for each datasets using the year column in Power Query. Then, date table was created. Finally relationships were created between the tables in the dataset. 
 
-![Data Model](https://github.com/Faithe7/Demo-Mysellar-Global-Store-Sales/blob/main/images/mysellar_sales_portfolio_data_model.PNG)
+![Data Model](Link)
 
 ## Dashboard Insights
 ### Global Health Trend Overview
