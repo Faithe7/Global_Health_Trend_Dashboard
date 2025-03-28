@@ -63,7 +63,7 @@ Country Classification Dataset contains specific columns namely:
 ## Data Model
 The datasets were first normalized in Excel, then transformed in Power Query. Date columns were created for each datasets using the year column in Power Query. Then, date table was created. Finally relationships were created between the tables in the dataset. 
 
-![Data Model](Link)
+![Data Model](https://github.com/Faithe7/Global_Health_Trend_Dashboard/blob/main/images/Global_Health_Trends_dashboard_data_model.png)
 
 ## Dashboard Insights
 ### Global Health Trend Overview
@@ -71,25 +71,25 @@ Global health has significantly evolved from 2000 to 2021, driven by advancement
 
 ### Life Expectancy and Healthy Life Expectancy
 
-![Life Expectancy Dashboard](Link) 
+![Life Expectancy Dashboard](https://github.com/Faithe7/Global_Health_Trend_Dashboard/blob/main/images/Global_Health_Trends_dashboard_LE%26HALE.png) 
 
 - **World Life Expectancy:** 
 
 ### Fertility Rate
 
-![Fertility Rate Dashboard](Link) 
+![Fertility Rate Dashboard](https://github.com/Faithe7/Global_Health_Trend_Dashboard/blob/main/images/Global_Health_Trends_dashboard_FR.png) 
 
 - **World Fertility Rate:** 
 
 ### Adult Mortality Rate
 
-![AMR](Link) 
+![AMR Dashboard](https://github.com/Faithe7/Global_Health_Trend_Dashboard/blob/main/images/Global_Health_Trends_dashboard_AMR.png) 
 
 - **World Adult Mortality Rate:** 
 
 ### Universal Health Coverage (UHC) Service Coverage Index 
 
-![UHC](Link) 
+![UHC SCI Dashboard](https://github.com/Faithe7/Global_Health_Trend_Dashboard/blob/main/images/Global_Health_Trends_dashboard_UHC_SCI.png) 
 
 - **UHC** 
 
@@ -103,4 +103,4 @@ Global health has significantly evolved from 2000 to 2021, driven by advancement
 
 
 ## Download
-<a href = "Link"> Download the Power BI file </a>
+<a href = "https://github.com/Faithe7/Global_Health_Trend_Dashboard/raw/refs/heads/main/images/Faith_Eliot_Global_Health_Trends_Dashboard.pbix"> Download the Power BI file </a>
