@@ -28,7 +28,7 @@ Each dataset conatins similar columns namely:
 Country Classification Dataset contains specific columns namely:
 - **Sub Region:** A geographic division within a continent for regional analysis.
 - **SDG Region:** A classification based on Sustainable Development Goal (SDG) monitoring.
-- **World Income Group:** A country classification by income level (Low, Lower-Middle, Upper-Middle, High) by World Bank.
+- **World Income Group:** A country classification by income level (Low-Income, Middle-Income, High-Income) by World Bank.
 
 ## Objectives
 - **Analyze Global Health Trends:** Examine changes in life expectancy, healthy life expectancy, fertility rate, and adult mortality rate across countries and regions.
