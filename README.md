@@ -7,10 +7,10 @@ This repository provides a comprehensive overview of global health trends from 2
 - **Life Expectancy (LE):** average number of years a newborn is expected to live under current mortality conditions. It is a crucial indicator of a country’s overall health and socioeconomic development.
 - **Healthy Life Expectancy (HALE):** average number of years a person is expected to live in good health, free from severe illness or disability. It provides a better measure of quality of life compared to total life expectancy.
 - **Fertility Rate:** average number of children a woman is expected to have in her lifetime. It reflects reproductive health, access to family planning, and social-economic conditions.
-- **Adult Mortality Rate:** measures the probability of dying between ages 15 and 60 per 1,000 population. It helps assess the impact of diseases, healthcare access, and lifestyle factors on adult survival.
+- **Adult Mortality Rate:** measures the probability of dying between ages 15 and 60 per 1,000 population. It assesses the impact of diseases, healthcare access, and lifestyle factors on adult survival.
 - **Universal Health Coverage (UHC) Service Coverage Index:** measures access to essential healthcare services, including maternal care, vaccinations, and disease treatment. A higher UHC index indicates better healthcare accessibility and quality.
 - **Gross Domestic Product (GDP):** total value of goods and services produced within a country. It serves as a key economic indicator influencing healthcare, infrastructure, and overall well-being.
-- **Country Classification:** categorized based on UN regions (continents), Sub-regions, SDG Regions and income level (as defined by the World Bank).
+- **Country Classification:** categorized based on UN regions (Continents), Sub-regions, SDG Regions and income level (as defined by the World Bank).
 
 ## About the Datasets
 Each dataset conatins similar columns namely:
@@ -78,6 +78,13 @@ The shape map dynamically visualizes LE trends by year and country, showcasing p
 - 2000: Lowest LE in Sub-Saharan Africa & South Asia, largely due to infectious diseases and poor healthcare access.
 - 2021: Significant LE improvements, especially in East Asia, Latin America, and parts of Africa, attributed to expanded healthcare programs and reduced mortality rates.
 
+#### Drop in World Life Expectancy in 2020
+In 2020, global life expectancy (LE) declined for the first time in decades, primarily due to the COVID-19 pandemic. Key factors contributing to this decline include:
+- High COVID-19 Mortality: Millions of deaths, especially among the elderly and vulnerable.
+- Healthcare Disruptions: Overburdened hospitals, delayed treatments, and reduced routine care.
+- Public Health Setbacks: Interrupted vaccinations, maternal health services, and disease control programs.
+- Economic & Social Impact: Increased poverty, mental health crises, and substance abuse.
+
 #### LE vs. HALE (Healthy Life Expectancy)
 Both LE and HALE have increased over time across most countries. HALE consistently makes up about 85–90% of total LE, meaning that while people are living longer, some years are lived with illness or disability.
 - HALE measures years lived in good health, accounting for disabilities and disease burdens.
@@ -103,10 +110,10 @@ The Shape Map provides a dynamic, year-by-year transition that visually captures
 World Fertility Rate decreased from 2.8 birth per woman in 2000 to 2.3 births per woman in 2021, marking global decline over two decades. The rate of increase varies significantly across continents, and individual countries.
 
 #### Continental Trends
-- **Africa** (Highest Fertility, Gradual Decline): Despite progress, Sub-Saharan Africa continues to have the highest fertility rates (above 4.0 births per woman). Countries like Niger, Chad, and Somalia still have fertility rates exceeding 5.0 births, but family planning programs are driving a slow decline.
+- **Africa** (Highest Fertility, Gradual Decline): Despite progress, Sub-Saharan Africa continues to have the highest fertility rates (above 4 births per woman). Countries like Niger, Chad, and Somalia still have fertility rates exceeding 5 births, but family planning programs are driving a slow decline.
 - **Asia** (Steady Decline, Aging Populations in Some Regions): East Asia, including China, Japan, and South Korea, now has some of the lowest fertility rates globally (below 1.5 births per woman).
 - **Europe & North America:** Lowest fertility rates (1.3–1.8 births per woman), contributing to aging populations.
-- **Latin America & Oceania:** Moderate declines, with some countries stabilizing around 2.0 births per woman.
+- **Latin America & Oceania:** Moderate declines, with some countries having around 2 births per woman.
 
 #### Fertility Rate and GDP Correlation 
 There is a strong inverse correlation between fertility rate and GDP per capita, with higher-income countries generally experiencing lower birth rates. This trend highlights the impact of economic development, healthcare access, and social factors on reproductive behavior.
@@ -121,8 +128,8 @@ Adult Mortality Rate (AMR) represents the probability of dying between ages 15 a
 
 #### Map Insights
 The map visualization dynamically tracks AMR changes year by year, revealing how countries with improved healthcare systems show declining mortality rates, while conflict-affected and low-income countries struggle.
-- 2000: Higher AMR in Sub-Saharan Africa, South Asia, and parts of Latin America.
-- 2021: Significant reductions in East Asia, Latin America, and high-income nations, while some low-income regions remain stagnant.
+- **2000:** Higher AMR in Sub-Saharan Africa, South Asia, and parts of Latin America.
+- **2021:** Significant reductions in East Asia, Latin America, and high-income nations, while some low-income regions remain stagnant.
 
 #### AMR Trends by Gender
 Yearly Fluctuation in AMR rate can be seen among male and female based on countries. 
@@ -152,7 +159,6 @@ The UHC Service Coverage Index measures access to essential health services, sco
 The global average UHC SCI has steadily increased, reflecting growing healthcare investments.
 - **2000:** Global UHC SCI ~ 45
 - **2021:** Global UHC SCI ~ 68
-The most significant gains are in Asia and Latin America, while Sub-Saharan Africa still faces challenges in healthcare access.
 
 #### UHC SCI Trends by SDG Regions
 - **Australia & New Zealand:** 2000 UHC SCI: ~78 | 2021 UHC SCI: ~86
@@ -163,18 +169,18 @@ Significant progress, but certain areas still face challenges.
 Improvent in coverage due to health care investment and access to essential services.
 - **Latin America & the Caribbean:** 2000 UHC SCI: ~51 | 2021 UHC SCI: ~75
 - **Northern America & Europe:** 2000 UHC SCI: ~67 | 2021 UHC SCI: ~81
-Europe maintains high UHC scores (80–90) due to universal public healthcare. North America varies—Canada has near-universal access, while the U.S. faces coverage gaps.
+Europe maintains high UHC scores (70–80) due to universal public healthcare. North America varies; Canada has near-universal access, while the U.S. faces some coverage gaps.
 - **Oceania (Excluding Australia & New Zealand):** 2000 UHC SCI: ~38 | 2021 UHC SCI: ~51
-Limited healthcare infrastructure in Pacific Island nations. Small improvements due to international health aid and regional healthcare policies.
+Limited healthcare infrastructure in Pacific Island countries. Small improvements due to international health aid and regional healthcare policies.
 - **Sub-Saharan Africa:** 2000 UHC SCI: ~24 | 2021 UHC SCI: ~46
 Slow progress due to funding limitations and weak health systems. Namibia, Algeria, Morocco, Egypy, and South Africa show notable improvements.
 - **Western Asia & Northern Africa:** 2000 UHC SCI: ~52 | 2021 UHC SCI: ~69
 Oil-rich countries (UAE, Saudi Arabia) have strong public healthcare. Conflict-affected nations still struggle with healthcare access.
 
 #### UHC SCI & GDP Correlation (Continental Overview):
-- High-Income Continents (Europe, North America) – Strong correlation between high GDP and UHC SCI above 80 due to universal healthcare policies.
-- Middle-Income Continents (Asia, Latin America) – Moderate correlation, with UHC SCI scores between 50–75, improving with economic growth and policy reforms.
-- Low-Income Continents (Africa, parts of South Asia, parts of oceania) – Weak correlation, with UHC SCI often below 50, as economic growth alone is insufficient without strong healthcare policies and acess to healthcare services.
+- **High-Income Continents (Europe, North America):** Strong correlation between high GDP and UHC SCI above 80 due to universal healthcare policies.
+- **Middle-Income Continents (Asia, Latin America):** Moderate correlation, with UHC SCI scores between 50-75, improving with economic growth and policy reforms.
+- **Low-Income Continents (Africa, parts of South Asia, parts of Oceania):** Weak correlation, with UHC SCI often below 50, as economic growth alone is not sufficient without strong healthcare policies and access to healthcare services.
 
 ## Recommendations
 To improve Life Expectancy (LE), Healthy Life Expectancy (HALE), Fertility Rate, Adult Mortality Rate (AMR), and Universal Health Coverage (UHC), the following key strategies are essential:
